@@ -109,6 +109,16 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/botirov206/botirov206/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source
+    srcset="https://raw.githubusercontent.com/botirov206/botirov206/output/github-snake-dark.svg"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://raw.githubusercontent.com/botirov206/botirov206/output/github-snake-light.svg"
+    media="(prefers-color-scheme: light)"
+  />
+  <img src="https://raw.githubusercontent.com/botirov206/botirov206/output/github-snake.svg" alt="Snake animation" />
+</picture>
 
 ###
